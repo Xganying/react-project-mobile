@@ -6,6 +6,7 @@ function Home() {
   return (
     <div className="page_content">
       <h2 className={styles.title}>Home</h2>
+      <div>this home page content</div>
     </div>
   );
 }
