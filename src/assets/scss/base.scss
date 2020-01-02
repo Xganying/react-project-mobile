@@ -1,0 +1,18 @@
+$primaryBlue: #096DD9;
+$primaryRed: #FF5582;
+$legacy-support-for-ie: false !default;
+
+@mixin clearfix {
+  @if $legacy-support-for-ie {
+      *zoom: 1;
+  }
+  &:before,
+  &:after {
+      content: "";
+      display: table;
+  }
+  &:after {
+      clear: both;
+      overflow: hidden;
+  }
+}

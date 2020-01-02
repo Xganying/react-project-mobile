@@ -1,0 +1,12 @@
+@import '../../../assets/scss/base.scss';
+
+.nav_box {
+  padding-top: 10px;
+  @include clearfix;
+}
+
+.nav_item {
+  float: left;
+  margin: 0 20px;
+  text-align: center;
+}
